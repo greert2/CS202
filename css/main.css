@@ -1,0 +1,69 @@
+/* This is a comment */
+/* Author - Tyler Greer 
+    Version 1.0
+*/
+/* Style rule - selector, declaration */
+/* selector{ propertyname: value; } */
+
+/* selector - element, id, class, multiple */
+
+/* css variables - root, var() */
+:root{
+    --main-color: red;
+    --bg-color: lightblue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body{
+    font-family: 'Nunito', sans-serif !important;
+    background-color: var(--bg-color);
+}
+
+p{
+    color: green;
+    font-size: 18px; /* em, rem, px, % */ 
+    /* 1em = 16px */
+
+
+    /* font-weight: bold; */
+}
+
+h1{
+    background-color: lightblue;
+}
+
+a{
+    color: red;
+    text-decoration: underline;
+    background-color: var(--bg-color);
+}
+
+footer{
+    font-style: italic;
+}
+
+#idname{
+    color: orange;
+}
+
+.classname{
+    color: pink;
+}
+
+p,h1,h2,.classname{
+
+}
+
+footer i{
+
+}
+nav a{
+
+}
+
+h3{
+    color: black !important;
+}
+
+/* margin-top is 80px, margin-right is 90px ...*/
+/* margin: 80px 90px 100px 70px; */

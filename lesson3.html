@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <title>Lesson 3 | Forms &amp; Multimedia</title>
+  </head>
+  <body>
+      <!-- container/container-fluid -->
+    <div class="container">
+        <h2>Forms</h2>
+        <!-- action - Where you are sending your information -->
+        <!-- method - POST/GET -->
+        <!-- autocomplete, onsubmit,  -->
+        <form action="welcom.html" method="POST" autocomplete="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="n1"><br><!-- input:text -->
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="em"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="pass"><br>
+
+            <label for="gender">Gender</label><br>
+            Male <input type="radio" name="n1" id="">
+            Female <input type="radio" name="n1" id=""><br><br>
+
+            <label for="city">City</label><br>
+            <select name="city" id="c">
+                <option value="o">Select One</option>
+                <option value="o1">Seattle</option>
+                <option value="o2">Bellingham</option>
+            </select>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="m" cols="50" rows="10"></textarea>
+
+
+            <br><br>
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <h2>Audio</h2>
+
+        <audio controls autoplay loop muted> <!-- hidden -->
+            <source type="audio/mp3" src="media/audio.mp3">
+        </audio><br><br>
+
+        <h2>Video</h2>
+        <video controls width="100%" loop poster="images/wester.jpg" >
+            <source type="video/mp4" src="media/video.mp4"> 
+        </video>
+
+
+
+
+
+    </div>
+    
+    <div style="margin-top: 400px"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
