@@ -1,0 +1,8 @@
+.contact-text{
+    display: flex;
+}
+.contact-items{
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}

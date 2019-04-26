@@ -1,0 +1,31 @@
+header{
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.logo{
+    flex: 1;
+    color: var(--text-color);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.menu{
+    flex: 3;
+    padding: 20px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    flex-flow: wrap;
+}
+.menu li{
+    flex: 1;
+}
+.menu a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 1em;
+    font-size: 20px;
+}
