@@ -1,0 +1,19 @@
+:root{
+    --main-color: #05a081;
+    --text-color: #fff;
+    --bg-color: #007d9a;
+    --shadow: 0 0 3px rgba(0,0,0,0.34), 0 0 4px rgba(0,0,0,0.4);
+}
+*{
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.cards img{
+    max-width: 20vw; /* unit vh, vw, rem */
+    margin: 10px;
+    box-shadow: var(--shadow);
+}
