@@ -1,0 +1,32 @@
+.box{
+    border-radius: 3px;
+    border:1px solid #fff;
+    color: #FFF;
+    font-size: 120%;
+    background-color: #22BBD4;
+    padding: 2em;
+}
+.box1{
+    border-radius: 3px;
+    border:1px solid #fff;
+    color: #FFF;
+    font-size: 120%;
+    background-color: #2C6E78;
+    padding: 2em;
+}
+.box2{
+    border-radius: 3px;
+    border:1px solid #Fff;
+    color: #FFF;
+    font-size: 120%;
+    background-color: dodgerblue;
+    padding: 2em;
+}
+.box3{
+    border-radius: 3px;
+    border:1px solid #Fff;
+    color: #FFF;
+    font-size: 120%;
+    background-color: darkcyan;
+    padding: 2em;
+}

@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.box{
+    color: #FFF;
+    font-size: 120%;
+    margin: 0;
+    padding: 3em;
+}
+.color-1{
+    background-color: #22BBD4;
+    
+}
+.color-2{ 
+    background-color: #2C6E78;
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 20% 50% 30%; */
+    /* grid-template-columns: 200px 300px 200px; */
+    /* fraction - fr */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* rows */
+    /* grid-template-rows: 300px 300px 200px; */
+    grid-auto-rows: 300px;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    grid-gap: 10px;
+    grid-template-areas:
+    "head head head"
+    "nav nav nav"
+    "main main main"
+    "s s s"
+    "a a a"
+    "f f f"
+}
+/* lines */
+.one{
+    /* From line 1 to line 3 */
+    /* grid-column: 1/3; 
+    grid-row: 1/3; */
+}
+.two{
+    /* grid-column: 4/5; */
+}
+.three{
+    /* grid-column: 1/4; */
+}
+
+
+/* grid areas */
+header{
+    grid-area: head;
+}
+nav{
+    grid-area:nav;
+}
+main{
+    grid-area: main;
+}
+.section{
+    grid-area: s;
+}
+.article{
+    grid-area: a;
+}
+footer{
+    grid-area: f;
+}
