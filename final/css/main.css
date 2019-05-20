@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav li{
+    flex: 1;
+    padding: 10px 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: lightblue;;
+    text-decoration: none;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+}
+header .logo{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: white;
+}
+#about{
+    background: white;
+}
